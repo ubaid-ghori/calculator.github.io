@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1693935597805-f574d2fdc0a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDV8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+
+
+                
+/* Container styles */
+.container {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    height: 70vh;
+    margin-top: 20px;
+  }
+  
+  /* Header styles */
+  h1 {
+    font-size: 24px;
+    color: white;
+  }
+  
+  /* Styling for the inner div containing Income, Expense, Profit, and Loss */
+  .div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  /* Box styles for Income, Expense, Profit, and Loss */
+  .div div {
+    flex-basis: 23%;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styling for the numeric values */
+  #incomeAmount,
+  #expenseAmount,
+  #profitAmount,
+  #LossAmount {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2ecc71;
+  }
+  
+  /* Styling for the input field */
+  #inputAmount {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Styling for the buttons */
+  .btn1,
+  .btn2 {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn1 {
+    background-color: #2ecc71;
+    color: #fff;
+  }
+  
+  .btn2 {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .Income{
+    margin-right: 15px;
+  }
+  .Expense{
+    margin-right: 15px;
+  }
+  .profit{
+    margin-right: 15px;
+  }
+  h1{
+    color: #ccc;
+    font-size: 40px;
+  }
